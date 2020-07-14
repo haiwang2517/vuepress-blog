@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Intelligence Bureau
+tagline: Horror Spiritual Thriller High IQ Magic Magical Adventure
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
