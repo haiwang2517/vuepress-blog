@@ -9,8 +9,8 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: 'Docs', 
         icon: 'reco-message',
         items: [
@@ -37,11 +37,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: '分类' // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
+        text: '标签' // 默认 “标签”
       }
     },
     friendLink: [
@@ -95,5 +95,6 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  plugins: ['@vuepress/active-header-links']
 }  
