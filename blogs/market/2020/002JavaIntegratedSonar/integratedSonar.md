@@ -56,7 +56,7 @@ jacocoTestReport {
 ```
 ##### **拆分说明**
 
-##### **1.build.gralde 添加插件**
+##### **1.build.gradle 添加插件**
 ```groovy
 buildscript {
     dependencies {
