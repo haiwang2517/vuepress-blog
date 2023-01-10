@@ -1,6 +1,7 @@
 ---
 title: 读《重构：改善既有代码的设计(第2版)》感受
-date: 2020-07-19
+date: 2020-07-19 12:30:00
+sidebar: 'auto'
 tags:
 categories: 
  - 重构

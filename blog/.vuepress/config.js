@@ -1,4 +1,9 @@
 module.exports = {
+  locales:{
+    '/':{
+      lang: 'zh-CN'
+    }
+  },
   title: "Hspace Blog",
   description: '每天进步一点点',
   dest: 'public',
@@ -17,25 +22,23 @@ module.exports = {
     ],
     //文章内容中的左边栏显示
     sidebar: { 
-      '/blogs/integrated/':[
+      '/article/integrated/':[
         'integratedSonar'
       ],
-      '/blogs/restructure/':[
+      '/article/restructure/':[
         'restructure'
       ],
-      '/blogs/vpn/':[
+      '/article/vpn/':[
         'trojanVpn'
       ]
     },  
     // 博客设置
     blogConfig: {
       category: {
-        location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: '分类' // 默认 “分类”
+        location: 2 // 在导航栏菜单中所占的位置，默认2
       },
       tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: '标签' // 默认 “标签”
+        location: 3 // 在导航栏菜单中所占的位置，默认3
       }
     },
     friendLink: [

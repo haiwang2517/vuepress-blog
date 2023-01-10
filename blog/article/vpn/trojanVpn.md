@@ -1,6 +1,7 @@
 ---
 title: Trojan 搭建科学上网工具
-date: 2020-08-12
+date: 2020-08-12 13:00:00
+sidebar: 'auto'
 tags: 
  - trojan
  - vpn
