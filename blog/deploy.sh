@@ -10,11 +10,11 @@ npm run build
 cd public
 
 # 如果是发布到自定义域名
-# echo 'www.example.com' > CNAME
+echo 'blog.haiyinlong.cn' > CNAME
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'feat: deploy article'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
