@@ -1,6 +1,7 @@
 ---
 title: Gradle集成Sonar插件及Jenkins触发Sonar Scanner
-date: 2020-08-06
+date: 2020-08-06 20:00:00
+sidebar: 'auto'
 tags:
  - gradle
  - java

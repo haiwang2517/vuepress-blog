@@ -4,6 +4,8 @@ date: 2020-07-19
 tags:
 categories: 
  - 重构
+# prev: false
+# next: ../002JavaIntegratedSonar/integratedSonar
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公司前段时间采购了《重构：改善既有代码的设计(第2版)》 这本书，最近刚好有时间阅读了下。强烈推荐给大家阅读。现在分享下自己的感受。
 

@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Intelligence Bureau",
+  title: "Hspace Blog",
   description: '每天进步一点点',
   dest: 'public',
   head: [
@@ -8,31 +8,25 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
+    type: 'blog',
+    // 菜单设置
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-      { text: 'Docs', 
-        icon: 'reco-message',
-        items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
-        ]
-      },
-      { text: 'Contact', 
-        icon: 'reco-message',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/haiwang2517', icon: 'reco-github' }
-        ]
-      }
+      { text: 'github' ,link: 'https://github.com/haiwang2517', icon: 'reco-github'}
     ],
-    sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
+    //文章内容中的左边栏显示
+    sidebar: { 
+      '/blogs/integrated/':[
+        'integratedSonar'
+      ],
+      '/blogs/restructure/':[
+        'restructure'
+      ],
+      '/blogs/vpn/':[
+        'trojanVpn'
       ]
     },  
-    type: 'blog',
     // 博客设置
     blogConfig: {
       category: {
@@ -63,35 +57,17 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    // sidebar: 'auto',
+    //  sidebar: 'auto',
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'Ken_Hai',
+    author: 'Ken Hai',
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
     startYear: '2020'
-    /**
-     * 密钥 (if your blog is private)
-     */
-
-    // keyPage: {
-    //   keys: ['your password'],
-    //   color: '#42b983',
-    //   lineColor: '#42b983'
-    // },
-
-    /**
-     * valine 设置 (if you need valine comment )
-     */
-
-    // valineConfig: {
-    //   appId: '...',// your appId
-    //   appKey: '...', // your appKey
-    // }
   },
   markdown: {
     lineNumbers: true
