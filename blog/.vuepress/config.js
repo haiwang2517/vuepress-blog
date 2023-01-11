@@ -74,6 +74,7 @@ module.exports = {
     valineConfig: {
       appId: '6tvWY6yUznCziLSwNcdvDF5Q-gzGzoHsz',// your appId
       appKey: '8oXEjYFAaEJAgMIs4HJACxMy', // your appKey
+      isShowComments: true
     }
   },
   markdown: {
