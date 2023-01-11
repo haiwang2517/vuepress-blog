@@ -70,7 +70,11 @@ module.exports = {
     // 备案号
     // record: 'xxxx',
     // 项目开始时间
-    startYear: '2020'
+    startYear: '2020',
+    valineConfig: {
+      appId: '6tvWY6yUznCziLSwNcdvDF5Q-gzGzoHsz',// your appId
+      appKey: '8oXEjYFAaEJAgMIs4HJACxMy', // your appKey
+    }
   },
   markdown: {
     lineNumbers: true
