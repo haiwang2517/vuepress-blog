@@ -30,6 +30,9 @@ module.exports = {
       ],
       '/article/vpn/':[
         'trojanVpn'
+      ],
+      '/article/optimization/':[
+        'sqlOptimization'
       ]
     },  
     // 博客设置
