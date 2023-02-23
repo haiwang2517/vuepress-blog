@@ -3,6 +3,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+cd ../
 # 生成静态文件
 npm run build
 
@@ -15,7 +16,7 @@ echo 'blog.haiyinlong.cn' > CNAME
 git init
 git add -A
 # git commit -m 'feat: deploy article'
-git commit -m 'feat: install comments plugin'
+git commit -m 'feat: add idempotent doc'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
