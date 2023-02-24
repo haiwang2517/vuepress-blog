@@ -31,7 +31,7 @@ module.exports = {
       '/article/vpn/':[
         'trojanVpn'
       ],
-      '/article/optimization/':[
+      '/article/sql/':[
         'sqlOptimization'
       ]
     },  
