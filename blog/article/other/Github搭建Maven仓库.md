@@ -114,6 +114,14 @@ mvn clean package deploy
 
 
 
+### 推送制品包异常     
+__Cannot deploy artifacts when Maven is in offline mode__
+
+> Idea > Settings > Build > Maven > Work offline , 去掉 `Work offline` 勾选
+
+
+
+
 ## 其他项目依赖使用
 其他项目配置github远程仓库地址进行拉取文件
 ```xml
@@ -138,5 +146,4 @@ mvn clean package deploy
         </dependency>
     </dependencies>
 ```
-
 
