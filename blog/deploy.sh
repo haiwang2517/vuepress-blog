@@ -16,7 +16,7 @@ echo 'blog.haiyinlong.cn' > CNAME
 git init
 git add -A
 # git commit -m 'feat: deploy article'
-git commit -m 'feat: add spring circular doc'
+git commit -m 'feat: add stable diffusion doc'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master

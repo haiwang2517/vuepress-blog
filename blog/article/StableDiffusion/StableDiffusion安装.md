@@ -19,18 +19,18 @@ categories:
 ![result](/images/StableDiffusion/result.png)
 
 
->  github 地址:https://github.com/AUTOMATIC1111/stable-diffusion-webui    
->  huggingface: https://huggingface.co/    
->  civitai: https://civitai.com/     
+>  github 地址:[https://github.com/AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)    
+>  huggingface: [https://huggingface.co/](https://huggingface.co/)    
+>  civitai: [https://civitai.com/](https://civitai.com/)     
 
 
 
-
-## 1. 环境准备
+## 安装步骤
+### 1. 环境准备
 * python3: Python 3.10.7
 * git:  2.36.1
 
-### __python 配置__
+__python 配置__
 切换国内源
 
 ```bash
@@ -46,7 +46,7 @@ pypi 腾讯源：http://mirrors.cloud.tencent.com/pypi/simple
 pypi 阿里源：https://mirrors.aliyun.com/pypi
 ```
 
-## 2. 下载stable diffusion
+### 2. 下载stable diffusion
 本地指定文件夹下载git代码
 ```bash
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
@@ -55,9 +55,9 @@ cd stable-diffusion-webui
 
 
 
-## 3. 本地配置stable diffusion
+### 3. 本地配置stable diffusion
 
-### __webui-user.bat配置__
+#### __webui-user.bat配置__
 ```bat
 @echo off
 # 指定python路径
@@ -79,7 +79,7 @@ call webui.bat
 
 
 
-### __launch.py配置__
+#### __launch.py配置__
 
 __去除cu117安装__
 ```bash
@@ -98,7 +98,7 @@ __具体改动项__
 ![ghproxy](/images/StableDiffusion/ghproxy.jpg)
 
 
-## 4. 启动stable diffusion
+### 4. 启动stable diffusion
 执行打开`webui-user.bat` 脚本文件.
 
 
@@ -120,8 +120,24 @@ rm -rf venv
 
 
 ## 高级用法(扩展插件)
-扩展插件地址: https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md
 
+### 1. 扩展插件地址: 
+[https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
+### 2. Nvidia CUDA: 
+[https://developer.download.nvidia.cn/compute/cuda/11.7.1/local_installers/cuda_11.7.1_516.94_windows.exe](https://developer.download.nvidia.cn/compute/cuda/11.7.1/local_installers/cuda_11.7.1_516.94_windows.exe)
+
+
+##  语音汉化
+[github汉化地址](https://github.com/VinsonLaro/stable-diffusion-webui-chinese)
+
+### 直接复制翻译好的本地化模板
+1. 在任意目录下使用`git clone https://github.com/VinsonLaro/stable-diffusion-webui-chinese`
+
+2. 进入下载好的文件夹,把"localizations"文件夹内的"Chinese-All.json"和"Chinese-English.json"复制到"stable-diffusion-webui\localizations"目录下
+
+3. 点击"Settings"，左侧点击"User interface"界面，在界面里最下方的"Localization (requires restart)"，选择"Chinese-All"或者"Chinese-English"
+
+4. 点击界面最上方的黄色按钮"Apply settings"，再点击右侧的"Reload UI"即可完成汉化
 
 
 ## 案例
