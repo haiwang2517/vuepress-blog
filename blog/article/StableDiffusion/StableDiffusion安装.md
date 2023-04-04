@@ -66,7 +66,7 @@ set PYTHON="C:\Python310\python.exe"
 set GIT=
 set VENV_DIR=
 # 配置启动参数
-set COMMANDLINE_ARGS= --listen  --precision full --no-half --skip-torch-cuda-test
+set COMMANDLINE_ARGS= --precision full --no-half --skip-torch-cuda-test --xformers
 
 # 启动程序
 call webui.bat
@@ -74,7 +74,10 @@ call webui.bat
 #### __属性说明__
 * __skip-torch-cuda-test:__ 针对没有显卡的电脑,跳过环境检测
 
-* __no-half:__ 提升画图效率
+```bash
+# 方法1 通过代码查看所有参数
+cat modules/cmd_args.py
+```
 
 
 
