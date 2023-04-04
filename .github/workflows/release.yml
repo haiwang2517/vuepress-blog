@@ -1,0 +1,29 @@
+name: release docs CI
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+      - name: 步骤：第二步 -> 安装依赖
+        uses: rreichel3/vuepress-github-actions-deploy@master
+        run: |
+          npm install
+          npm run build
+          ls 
+        env:
+          CI: true
+    # - name: Build and Deploy
+    #   uses: rreichel3/vuepress-github-actions-deploy@master
+    #   env:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     BUILD_DIR: public/ # The folder, the action should deploy.
+    #     BUILD_SCRIPT: npm install && npm run build # The build script the action should run prior to deploying.
+    #     PAGES_CNAME: blog.haiyinlong.cn
